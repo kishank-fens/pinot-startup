@@ -118,7 +118,7 @@ controller:
     name: controller
 
   external:
-    enabled: true
+    enabled: false
     type: LoadBalancer
     port: 9000
     annotations: {}
@@ -213,7 +213,7 @@ broker:
     nodePort: ""
 
   external:
-    enabled: true
+    enabled: false
     type: LoadBalancer
     port: 8099
     # For example, in private GKE cluster, you might add cloud.google.com/load-balancer-type: Internal
