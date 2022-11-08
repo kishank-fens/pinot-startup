@@ -271,7 +271,7 @@ broker:
 # ------------------------------------------------------------------------------
 server:
   name: server
-  replicaCount: 1
+  replicaCount: 2
   podManagementPolicy: Parallel
   podSecurityContext: {}
     # fsGroup: 2000
